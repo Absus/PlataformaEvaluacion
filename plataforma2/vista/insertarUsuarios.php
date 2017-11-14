@@ -7,25 +7,23 @@
   <div class="row">
       <div class="row col-md-4 col-md-offset-4">
           <br>
-          <div class="">
-		  <center>
+          <div class="panel panel-default">
               <div class="panel-heading">
-                    <h3 class="">Insertar Usuarios</h3>
+                    <h3 class="panel-title">Insertar Usuarios</h3>
               </div>
               <div class="panel-body">
                     <div class="form-group">
-                          <label for="usuario" class="">Usuario:</label>
-                          <input type="text" class="" id="usuario">
+                          <label for="usuario" class="control-label">Usuario:</label>
+                          <input type="text" class="form-control" id="usuario">
                     </div>
                     <div class="form-group">
-                          <label for="pass" class="">Password:</label>
-                          <input type="password" class="" id="pass">
+                          <label for="pass" class="control-label">Password:</label>
+                          <input type="password" class="form-control" id="pass">
                     </div>
                     <div class="form-group">
-                          <input class="" type="button" value="registrar" id="btnregistrar">
+                          <input class="btn btn-success" type="button" value="registrar" id="btnregistrar">
                     </div>
               </div>
-		  </center>
           </div>
       </div>
     </div>

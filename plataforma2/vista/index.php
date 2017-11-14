@@ -2,18 +2,16 @@
 
 <?php include 'include/menu.php';?>
 
-<div class="">
-    <div class="">
+<div class="container">
+    <div class="row col-md-12">
         <br>
-        <div class="">
+        <div class="jumbotron">
             <div class="container">
-			<center>
                 <h1>BIENVENIDO!</h1>
                 <p>PLATAFORMA VIRTUAL PARA EXAMENES DE LA FCYT</p>
                 <p>
-                    <a href="login.php" class="">Ingresar</a>
+                    <a href="login.php" class="btn btn-primary btn-lg">Ingresar</a>
                 </p>
-			</center>
             </div>
         </div>
     </div>
